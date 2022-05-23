@@ -3,6 +3,7 @@
     --title-text-color: #212121; 
     --accent-color: #2196F3;
     --logo-color: #000000;
+    --title-color: #FFFFFF;
 
 }
 
@@ -19,6 +20,11 @@ body {
 /* header */
 .logo {
     color: var(--logo-color);
+
+}
+.logo:hover,
+.logo:focus{
+    color: var(--accent-color);
 }
 .logo-accent {
     color: var(--accent-color);
@@ -40,5 +46,26 @@ body {
 .contacts .link:focus{
     color: var(--accent-color);
 }
+.section{
 
-  
+}
+.title{
+    color: var(--title-color);
+    background-color: #000000;
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.feature-title {
+    color: var(--title-text-color);
+}
+.team-person {
+    color: var(--title-text-color);
+}
+.button {
+    color: var(--title-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
