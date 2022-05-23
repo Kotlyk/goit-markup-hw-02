@@ -1,0 +1,44 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121; 
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+
+}
+
+/* ссылки в футере сolor: rgba(255, 255, 255, 0.6); */
+
+.list {
+    list-style: none;
+}
+
+
+body {
+    color: var(--primary-text-color);
+}
+/* header */
+.logo {
+    color: var(--logo-color);
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.menu-nav .link{
+    color: var(--title-text-color);
+}
+.menu-nav .link:hover,
+.menu-nav .link:focus{
+    color: var(--accent-color);
+}
+ 
+.contacts .link{
+    color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--accent-color);
+}
+
+  
