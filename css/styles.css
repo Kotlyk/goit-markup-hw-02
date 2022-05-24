@@ -2,9 +2,11 @@
     --primary-text-color: #757575;
     --title-text-color: #212121; 
     --accent-color: #2196F3;
-    --logo-color: #000000;
+    --logo-color-header: #000000;
+    --logo-color-footer: #FFFFFF;
     --title-color: #FFFFFF;
-
+    --primary-background-color: #E5E5E5;
+    --accent-backgroud-color: #F5F4FA;
 }
 
 /* ссылки в футере сolor: rgba(255, 255, 255, 0.6); */
@@ -16,9 +18,13 @@
 
 body {
     color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
 }
 /* header */
-.logo {
+header{
+    background-color: #FFFFFF;
+}
+header .logo {
     color: var(--logo-color);
 
 }
@@ -48,13 +54,12 @@ body {
 }
 
 /* main big section */
-.section{
-
+.big-box{
+    background-color: #2F303A;
 }
 .title{
     color: var(--title-color);
-    background-color: #000000;
-}
+   }
 .button {
     color: var(--title-color);
     background-color: var(--accent-color);
@@ -63,17 +68,44 @@ body {
 
 
 /* feature section */
-.section-title {
-    color: var(--title-text-color);
-}
+
 
 .feature-title {
     color: var(--title-text-color);
 }
 
+/* work */
+.section-title {
+    color: var(--title-text-color);
+ }
+
 /* team section */
+.team{
+background-color: var(--accent-backgroud-color);
+}
+.team-photo{
+    background-color: #FFFFFF;
+}
 .team-person {
     color: var(--title-text-color);
 }
 
-
+/* footer */
+ footer{
+     background-color: #2F303A;
+ }
+ footer .logo{
+     color: var(--logo-color-footer);
+ }
+ .address{
+     color: #FFFFFF;
+ }
+ 
+ .address-nav .link{
+     color: rgba(255, 255, 255, 0.6);
+ }
+ 
+.address-nav .link:hover,
+.address-nav .link:focus{
+    color: var(--accent-color);
+ }
