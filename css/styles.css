@@ -46,6 +46,8 @@ body {
 .contacts .link:focus{
     color: var(--accent-color);
 }
+
+/* main big section */
 .section{
 
 }
@@ -53,7 +55,14 @@ body {
     color: var(--title-color);
     background-color: #000000;
 }
+.button {
+    color: var(--title-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
 
+
+/* feature section */
 .section-title {
     color: var(--title-text-color);
 }
@@ -61,11 +70,10 @@ body {
 .feature-title {
     color: var(--title-text-color);
 }
+
+/* team section */
 .team-person {
     color: var(--title-text-color);
 }
-.button {
-    color: var(--title-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-}
+
+
