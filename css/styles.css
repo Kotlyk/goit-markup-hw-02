@@ -19,13 +19,21 @@
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    font-family: 'Roboto', sans-serif;
 }
+
+    
 /* header */
 header{
     background-color: #FFFFFF;
 }
 header .logo {
-    color: var(--logo-color);
+    color: var(--logo-color-header);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
 
 }
 .logo:hover,
@@ -38,6 +46,9 @@ header .logo {
 
 .menu-nav .link{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus{
@@ -46,6 +57,9 @@ header .logo {
  
 .contacts .link{
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
 }
 
 .contacts .link:hover,
@@ -53,16 +67,22 @@ header .logo {
     color: var(--accent-color);
 }
 
-/* main big section */
-.big-box{
+/* hero */
+.hero{
     background-color: #2F303A;
 }
-.title{
+.hero-title{
     color: var(--title-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,4;
    }
 .button {
     color: var(--title-color);
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
     cursor: pointer;
 }
 
@@ -70,14 +90,25 @@ header .logo {
 /* feature section */
 
 
-.feature-title {
+.feature-subtitle {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
 }
-
-/* work */
+.feature-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* work section*/
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2x;
  }
+
 
 /* team section */
 .team{
@@ -86,8 +117,16 @@ background-color: var(--accent-backgroud-color);
 .team-photo{
     background-color: #FFFFFF;
 }
-.team-person {
+.team-subtitle {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 /* footer */
@@ -96,13 +135,24 @@ background-color: var(--accent-backgroud-color);
  }
  footer .logo{
      color: var(--logo-color-footer);
+     font-family: 'Raleway';
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.2;
  }
+ 
  .address{
      color: #FFFFFF;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.7;
  }
  
  .address-nav .link{
      color: rgba(255, 255, 255, 0.6);
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.7;
  }
  
 .address-nav .link:hover,
