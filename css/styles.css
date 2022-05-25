@@ -5,7 +5,7 @@
     --logo-color-header: #000000;
     --logo-color-footer: #FFFFFF;
     --title-color: #FFFFFF;
-    --primary-background-color: #E5E5E5;
+    --primary-background-color: #ffffff;
     --accent-backgroud-color: #F5F4FA;
 }
 
@@ -158,4 +158,36 @@ background-color: var(--accent-backgroud-color);
 .address-nav .link:hover,
 .address-nav .link:focus{
     color: var(--accent-color);
+ }
+
+ /* portfolio */
+ /* page nav  */
+.button-nav{
+    color: var(--title-text-color);
+    background-color: var(--primary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+}
+.button-nav:hover,
+.button-nav:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+ 
+/* project */
+ .project-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--title-text-color);
+ }
+.project-desc{
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 2;
+ }
+ .project-item{
+     background-color: #FFFFFF;
  }
